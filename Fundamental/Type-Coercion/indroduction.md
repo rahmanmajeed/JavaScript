@@ -5,5 +5,5 @@ In JavaScript, you can convert a value from one type to another. This is called 
 </p>
 <h2 align="center">Introduction</h2>
 <p>
-  JavaScript is an interesting language. It allows you to convert value of one type into another. This process of type conversion is called `type coercion`.
+  JavaScript is an interesting language. It allows you to convert value of one type into another. This process of type conversion is called ```type coercion```.
 </p>
