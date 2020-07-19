@@ -5,5 +5,10 @@ JavaScript is single threaded, meaning that two bits of script cannot run at the
 <h2 align="center">Introduction</h2>
 
 Imagine that you’re a top singer, and fans ask day and night for your upcoming single.
+[promise]: https://github.com/rahmanmajeed/JavaScript/blob/master/Assets/images/promise-resolve-reject.svg "Promise"
+
+
+![alt text][promise]
+
 
 Source: [freecodecamp](https://www.freecodecamp.org/news/javascript-promises-explained/ "FreeCodeCamp") and [javascriptinfo](https://javascript.info/promise-basics "JavaScriptInfo")
