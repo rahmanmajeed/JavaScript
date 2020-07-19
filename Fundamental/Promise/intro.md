@@ -6,8 +6,10 @@ JavaScript is single threaded, meaning that two bits of script cannot run at the
 
 Imagine that you’re a top singer, and fans ask day and night for your upcoming single.
 
-Inline-style: 
-![alt text](https://github.com/rahmanmajeed/JavaScript/blob/master/Assets/images/promise-resolve-reject.svg "Logo Title Text 1")
+<p align="center">
+  <img width="460" height="300" src="https://github.com/rahmanmajeed/JavaScript/blob/master/Assets/images/promise-resolve-reject.svg">
+</p>
+
 
 ![alt text][promise]
 
