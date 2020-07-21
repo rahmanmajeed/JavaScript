@@ -8,13 +8,14 @@ In JavaScript, you can convert a value from one type to another. This is called 
   JavaScript is an interesting language. It allows you to convert value of one type into another. This process of type conversion is called `type coercion`. when it is done implicitly called implicit coercion. when it is done explicitly called explicit coercion.
 
 The Type coercion applies to primitive types:
-        - Number
-        - String
-        - Boolean
-        - Null and
-        - Undefined.
 
-It is also applies on `_Symbol_` such as: `+,-,*,/,|,&` etc.
+        * Number
+        * String
+        * Boolean
+        * Null and
+        * Undefined.
+
+It is also applies on _`Symbol`_ such as: `+,-,*,/,|,&` etc.
 
 >Sometimes, it also applies to objects.
 
