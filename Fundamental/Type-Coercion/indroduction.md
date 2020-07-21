@@ -9,11 +9,11 @@ In JavaScript, you can convert a value from one type to another. This is called 
 
 The Type coercion applies to primitive types:
 
-        * Number
-        * String
-        * Boolean
-        * Null and
-        * Undefined.
+        - Number
+        - String
+        - Boolean
+        - Null and
+        - Undefined.
 
 It is also applies on _`Symbol`_ such as: `+,-,*,/,|,&` etc.
 
