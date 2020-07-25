@@ -1,7 +1,8 @@
 # JavaScript Type-Coercion
 
 <p>
-In JavaScript, you can convert a value from one type to another. When it's done _`explicitly`_ called `type casting` and when it's done _`implicitly`_ this is called _`type coercion`_. Type coercion is magical, evil, confusing. But it's not weird, I will explain it here step by step how it works.
+In JavaScript, you can convert a value from one type to another. When it's done  _`explicitly`_ called _`type casting`_ and when it's done _`implicitly`_ this is called 
+_`type coercion`_ . Type coercion is magical, evil, confusing. But it's not weird, I will explain it here step by step how it works.
 
 Our goal is to fully explore the pros and cons (yes, there are pros!) of coercion, so that you can make an informed decision on it appropriateness in your program.
 </p>
