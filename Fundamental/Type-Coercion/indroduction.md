@@ -19,7 +19,7 @@ It is also applies on _`Symbol`_ such as: `+,-,*,/,|,&` etc.
 
 >Sometimes, it also applies to objects.
 
-When type coercion or type casting happens, the result is always some `_primitive_` type, like `string`, `number`, or `boolean`. It will never happen that the result of type coercion, or casting, will be either object or a function.
+When type coercion or type casting happens, the result is always some _`primitive`_ type, like `string`, `number`, or `boolean`. It will never happen that the result of type coercion, or casting, will be either **object** or a **function**.
 
 
   Source & Reference: [ALEX DEVERO BLOG](https://blog.alexdevero.com/)
