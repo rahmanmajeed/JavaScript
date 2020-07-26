@@ -32,4 +32,13 @@ As you know, type coercion refers to implicit type conversion while type casting
 
 The difference should be obvious. `explicit coercion` is when it is obvious from looking at the code that a type conversion is intentionally occurring, whereas `implicit coercion` is when the type conversion will occur as less obvious side effect of some other intentional operation.
 
+For example, consider these two approaches to coercion:
+
+```
+var a = 42;
+var b = a + "";
+var c = String(a);
+
+```
+Here For b, the coercion that occurs happens `implicitly`
 Source & Reference: [ALEX DEVERO BLOG](https://blog.alexdevero.com/) [YDKJS](https://github.com/getify/You-Dont-Know-JS)
