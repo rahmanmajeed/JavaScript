@@ -34,11 +34,12 @@ The difference should be obvious. `explicit coercion` is when it is obvious from
 
 For example, consider these two approaches to coercion:
 
-```
+```js
 var a = 42;
 var b = a + "";
 var c = String(a);
 
 ```
-Here For b, the coercion that occurs happens `implicitly`
+Here For b, the coercion that occurs happens `implicitly` and it will a string operation, because the `+` operator will insist on the operation being a _`string`_ concatenation if any of the operand is type of a `string`.
+
 Source & Reference: [ALEX DEVERO BLOG](https://blog.alexdevero.com/) [YDKJS](https://github.com/getify/You-Dont-Know-JS)
