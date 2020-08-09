@@ -36,10 +36,14 @@ For example, consider these two approaches to coercion:
 
 ```js
 var a = 42;
-var b = a + "";
-var c = String(a);
+var b = a + ""; // implicit coercion
+var c = String(a); // explicit coercion
 
 ```
-Here For b, the coercion that occurs happens `implicitly` and it will a string operation, because the `+` operator will insist on the operation being a _`string`_ concatenation if any of the operand is type of a `string`.
+Here For b, the coercion that occurs happens `implicitly` and it will a string operation, because the `+` operator will insist on the operation being a _`string`_ concatenation if any of the operand is type of a `string`. 
+
+By Contrast, the _`String(..)`_ function makes it pretty obvious that it's `explicitly` taking the value in and coercing it to a string representation.
+
+Both approaches accomplish the same effect: "42" comes from 42.
 
 Source & Reference: [ALEX DEVERO BLOG](https://blog.alexdevero.com/) [YDKJS](https://github.com/getify/You-Dont-Know-JS)
