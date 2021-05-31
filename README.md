@@ -2,7 +2,7 @@
 
 ## Core Topics
 
-_Core Topics
+_Core Topics_
 
 > all core topics related to JavaScript are briefly discuss here
 
@@ -14,11 +14,11 @@ _Core Topics
 
 ## Fundamental Topics
 
-_Fundamental Topics
+_Fundamental Topics_
 
 > all JavaScript fundamentals are briefly discuss here
 
 | Topic | Links |
 | ------ | ------ |
-| JS Map & Set | [plugins/dropbox/README.md][PlDb] |
-| JS Reduce | [plugins/github/README.md][PlGh] |
+| JS Map & Set | [https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md][PlDb] |
+| JS Reduce | [https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md][PlGh] |
