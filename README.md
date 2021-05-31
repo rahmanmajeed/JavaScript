@@ -20,5 +20,16 @@ _Fundamental Topics_
 
 | Topic | Links |
 | ------ | ------ |
-| JS Map & Set | [Map](https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md) |
-| JS Reduce | [Reduce](https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md) |
+| JS `this` mystery| [`this` mystery](https://github.com/rahmanmajeed/JavaScript/blob/master/Build-In%20Fundamental/map.md) |
+
+
+## Build-In Fundamental Topics
+
+_Build-In Fundamental Topics_
+
+> all JavaScript build-in fundamentals are briefly discuss here
+
+| Topic | Links |
+| ------ | ------ |
+| JS Map & Set | [Map](https://github.com/rahmanmajeed/JavaScript/blob/master/Build-In%20Fundamental/map.md) |
+| JS Reduce | [Reduce]() |
