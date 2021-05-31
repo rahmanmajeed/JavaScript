@@ -20,5 +20,5 @@ _Fundamental Topics_
 
 | Topic | Links |
 | ------ | ------ |
-| JS Map & Set | [https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md][PlDb] |
-| JS Reduce | [https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md][PlGh] |
+| JS Map & Set | [Map](https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md) |
+| JS Reduce | [Reduce](https://github.com/rahmanmajeed/JavaScript/blob/master/Fundamental/Type-Coercion/TypesOfCoercion.md) |
