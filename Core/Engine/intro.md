@@ -22,9 +22,9 @@ During compilation, the entire source code gets converted into machine code all 
 
 The execution of machine code happens right after the compilation. For example, any application you are now using on your computer has been compiled first and you are now able to execute it on your machine.
 
-[Compilation_Programming](../../Assets/images/JavaScript-compilation-explained-1-300x48.png)
+![Compilation_Programming](../../Assets/images/JavaScript-compilation-explained-1-300x48.png)
 
 ### What is Interpretation in Programming?
 On the other hand, during interpretation, the interpreter runs through the source code and executes it line by line. Unlike compilation, which involves a two-step process, in interpretation, the code is read and executed at the same time. Of course, the source code still needs to be converted into machine language, but the conversion of code does not happen ahead of time, but, instead, right before execution.
 
-[Interpretation_Programming](../../Assets/images/JavaScript-interpretation-explained-2-300x56.png)
+![Interpretation_Programming](../../Assets/images/JavaScript-interpretation-explained-2-300x56.png)
