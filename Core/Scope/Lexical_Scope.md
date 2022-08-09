@@ -12,8 +12,12 @@ in other words, it's means the words or vocabulary of a language. It's like a di
 Now, we can say that -
 _`lexical`_ refers to the definition of things that anything related to creating words, variables is termed _`lexical`_.
 
-```
-:::📝**Note**
-Another name for a dictionary is a lexicon. In other words, a _`lexicon`_ is a dictionary where words are listed and defined.
-:::
-```
+> **:::📝Note**
+> Another name for a dictionary is a lexicon. In other words, a _`lexicon`_ is a dictionary where words are listed and defined.
+> :::
+
+for example, whenever you want to find the meaning of a word. you go to the _`lexicon`_ or _`dictionary`_. rather you don't look at where the word is used. you always go the _`lexicon`_, where the words are _`created`_ and clearly _`defined`_.
+
+In terms of JavaScript, _`lexical`_ has to do with where a variable was defined/created.
+
+> lexical means definition.
