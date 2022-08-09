@@ -10,10 +10,10 @@ _`lexicon`_ simply means a dictionary. It's like a dictionary where words are de
 in other words, it's means the words or vocabulary of a language. It's like a dictionary book where the meaning/definition of words are stored.
 
 Now, we can say that -
-lexical refers to the definition of things that anything related to creating words, variables is termed _`lexical`_.
+_`lexical`_ refers to the definition of things that anything related to creating words, variables is termed _`lexical`_.
 
 ```
-::: 📝***Note***
-Another name for a dictionary is a lexicon. In other words, a lexicon is a dictionary where words are listed and defined.
+:::📝**Note**
+Another name for a dictionary is a lexicon. In other words, a _`lexicon`_ is a dictionary where words are listed and defined.
 :::
 ```
