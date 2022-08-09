@@ -20,4 +20,4 @@ for example, whenever you want to find the meaning of a word. you go to the _`le
 
 In terms of JavaScript, _`lexical`_ has to do with where a variable was defined/created.
 
-> lexical means definition.
+> _**`Lexical`**_ means definition.
