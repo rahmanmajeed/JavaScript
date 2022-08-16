@@ -20,10 +20,10 @@ Since we're students of Science and not Linguists, let's replace "word" with "va
 
 Our new definition would be:
 
-> **Lexical Scope** simply means that the **region** in which a **variable** exists is determined by where it was **defined** or **created**. 
-
+> **Lexical Scope** simply means that the **region** in which a **variable** exists is determined by where it was **defined** or **created**.
+>
 > **Lexical Scope** means that the meaning/value of a variable can only be determined by the region/environment where it was created.
-
+>
 > **Lexical Scope** means that you don't directly outsource the meaning of a variable to code from an outside region(block) that uses the variable. This is because lexical places emphasis on the origin on where the variable was created/defined.
 
 
