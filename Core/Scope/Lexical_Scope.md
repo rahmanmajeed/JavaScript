@@ -1,40 +1,30 @@
 # Lexical Scope
+We have seen the meaning of the two words in plain English.
+With that knowledge, let's define **Lexical Scope** in plain English:
 
-### First we explore the keyword _Lexical_ and _Scope_. find out about meaning of what are they actulally !!!
+>**Lexical Scope** simply means that the **region** in which a **word** exists is determined by where it was **defined** or **created**.
 
-## Illustration _Lexical_
-#### _*illustrate - 01*_
-To understand _`lexical`_, let's first look at the word, the word _`lexical`_ which is derived from the word _`lexicon`_. the _`lexicon`_ was derived from the greek word:`lexis` which means `word`.
-_`lexicon`_ simply means a dictionary. It's like a dictionary where words are defined and listed.
+Other definitions would be:
 
-in other words, it's means the words or vocabulary of a language. It's like a dictionary book where the meaning/definition of words are stored.
+> **Lexical Scope** means that the meaning/value of a word can only be determined by the **region/environment** where it was created.
 
-Now, we can say that -
-_`lexical`_ refers to the definition of things that anything related to creating words, variables is termed _`lexical`_.
+> **Lexical Scope** means that you don't directly outsource the meaning of a word to people from an outside **region** that uses the word. This is because lexical places emphasis on the origin on where it was **created/defined**.
 
-> **:::📝Note**
-> Another name for a dictionary is a lexicon. In other words, a _`lexicon`_ is a dictionary where words are listed and defined.
-> :::
+Okay, i'll give an example.
+Let's use the word: **"Dance"**.
+The word "dance" was created/defined in Britain. The British people know its meaning. This word exists in the scope in which it was created: "Britain". Wales is in Britain so Wales has access to this word (remember we already explained why above). So the Welsh people can update the meaning of this word to suit their local dialect. This is because they are inside the scope of Britain.
 
-for example, whenever you want to find the meaning of a word. you go to the _`lexicon`_ or _`dictionary`_. rather you don't look at where the word is used. you always go the _`lexicon`_, where the words are _`created`_ and clearly _`defined`_.
+The Germans cannot directly come and change the meaning of this word. This is because the word was not created in Germany. So, if the Germans wanted to use the English word: **"dance"** and that word has not yet been created by Britain, that word would not be available no matter how hard they try. This would make no one to know the actual meaning of that word in Germany because the word doesn't exist in the **British Lexicon**. (Don't worry if this seems gibberish, i'll explain with code later on)
 
-In terms of JavaScript, _`lexical`_ has to do with where a variable was defined/created.
+Since we're students of Science and not Linguists, let's replace "word" with "variable".
+
+Our new definition would be:
+
+> **Lexical Scope** simply means that the **region** in which a **variable** exists is determined by where it was **defined** or **created**. 
+
+> **Lexical Scope** means that the meaning/value of a variable can only be determined by the region/environment where it was created.
+
+> **Lexical Scope** means that you don't directly outsource the meaning of a variable to code from an outside region(block) that uses the variable. This is because lexical places emphasis on the origin on where the variable was created/defined.
 
 
-#### _*illustrate - 02*_
 
-To understand lexical, let's first look at the word from which it is derived from: _*Lexicon*_.
-_*Lexicon*_ was derived from the latin word: "_*lexis*_" which means "_*word*_".
-
-In plain English:
->Lexicon simply means a dictionary. In order words, it means a vocabulary of a person's language. It is like a book where the meaning/definition of words are stored.
-
-Whenever you want to find the meaning of a word, you go to the _*lexicon*_.
-You don't look at where the word is used and guess what it means and its content or value. You always go the _*lexicon*_, where the word's purpose is _*created*_ and clearly defined.
-
-Now with that explanation:
-> Lexical simply means something related to the lexicon. In other words, it means something related to words or vocabulary of a person's language. Something related to the creation or definition of words.
-
-All of the discussion above, we can say in simple -
-
-> _**`Lexical`**_ means definition.
