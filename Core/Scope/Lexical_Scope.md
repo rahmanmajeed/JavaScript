@@ -1,8 +1,9 @@
 # Lexical Scope
+
 We have seen the meaning of the two words in plain English.
 With that knowledge, let's define **Lexical Scope** in plain English:
 
->**Lexical Scope** simply means that the **region** in which a **word** exists is determined by where it was **defined** or **created**.
+> **Lexical Scope** simply means that the **region** in which a **word** exists is determined by where it was **defined** or **created**.
 
 Other definitions would be:
 
@@ -29,10 +30,11 @@ Our new definition would be:
 So what lexical scope shows us is that a variable can only be used in the scope in which it was created and not where it was called.
 
 Let's see how this works in code:
+
 ```javascript
 function rideBritishBoat() {
   let boatName = "Queen's Dab"; // local variable
-  return `Driving ${boatName}`
+  return `Driving ${boatName}`;
 }
 
 function rideGermanBoat() {
@@ -42,6 +44,7 @@ function rideGermanBoat() {
 
 rideGermanBoat();
 ```
+
 The example above simulates a scenario where the Germans bought a boat from Britain....(You could swap it which ever country you want...no need to fight why i didn't mention some other country. These are just country names and not JavaScript libraries 😛 ).
 The _`rideGermanBoat()`_ uses the _`rideBritishBoat()`_.
 Since JavaScript uses lexical scope, when executing the _`rideBritishBoat()`_ function, it goes to where it was **created** and gets the reference of the variable: boatName. So with lexical scoping, whenever _`rideBritishBoat()`_ is executed, JavaScript goes inside the function's scope to look for the variables used in this function.
@@ -49,6 +52,7 @@ Since JavaScript uses lexical scope, when executing the _`rideBritishBoat()`_ fu
 **Note**: The scope of the _`rideBritishBoat()`_ function is its local scope and the global scope. The rideGermanBoat() is not in the lexical scope of the _`rideBritishBoat()`_ function because _`rideBritishBoat()`_ was not created inside it.
 
 Now, let's change the example a bit:
+
 ```javascript
 function rideBritishBoat() {
   return `Driving ${boatName}`; // Reference Error: boatName not defined
@@ -62,9 +66,10 @@ function rideGermanBoat() {
 
 rideGermanBoat();
 ```
+
 The above code fails. The _`rideBritishBoat()`_ functions fails to be precise. It fails when trying to access _`boatName`_ in the return statement.
 
-Why?
+**Why?**
 
 This is because JavaScript uses lexical scope.
 How this works is when it encounters _`boatName`_ variable inside the _`rideBritishBoat()`_ function, it **looks for** where the _`boatName`_ variable was **created** in its **Scope Chain**. That is, all possible scope of that function which is the: **Local Scope** of the function, then it checks its enclosing scope in this case the **Global Scope**.
@@ -90,12 +95,22 @@ function rideBangladeshiBoat() {
 
 rideBangladeshiBoat();
 ```
+
 In a dynamically scoped language, you can see the value of _`boatName`_ variable inside _`rideBritishBoat()`_ is dependent on the scope in which it is executed. As we can see that this scope can change, hence it is dynamic.
 So inside _`rideBritishBoat()`_, it calls the _`boatName`_ variable of _`rideBangladeshiBoat()`_ which is outside its block scope.
 
 That's Dynamic Scoping and Lexical Scoping is the opposite.
 
 **But remember**,
-> JavaScript is not Dynamically scoped. This is just to show you the difference.
+
+> JavaScript is not Dynamically scoped.
+
+This is just to show you the difference.
 
 So lexical scoping checks for variables at **compile-time** (variables needs to be created and accessible in the scope/block it is used) while dynamic scoping checks for variables at run-time (variables might not be created in the scope when compiling but can be present when the function is running).
+
+Sticky Note on Lexical Scope -
+
+1. Lexical scope enforces finding variables from the scope/block they were created/declared and not the environment where they are used or invoked.
+
+2. Lexical has to do with where a variable was declared/created.
