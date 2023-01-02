@@ -8,3 +8,4 @@ JavaScript Runtime Environment is like a container that has all the things to ru
           - [] Event Loop etc.
 ~~~
 ![alt text](./assests/JSRE.png)
+| *JavaScript Runtime Environment* |
