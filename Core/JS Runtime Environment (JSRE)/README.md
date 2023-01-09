@@ -5,6 +5,6 @@ JavaScript Runtime Environment is like a container that has all the things to ru
           - [] Web/Browser APIs
           - [] Callback Queues
           - [] Microtask Queues
-          - [] Event Loop :loop:
+          - [] Event Loop etc.
 ~~~
 ![alt text](./assests/JSRE.png)
